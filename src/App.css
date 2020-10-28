@@ -1,0 +1,237 @@
+/* @font-face { font-family: 'Chilanka';  url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap')} */
+
+body {
+    padding: 0px;  
+    margin: auto;
+    /* width: 1000px; */
+    width: 700px;
+    height: auto;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 55px 470px 250px 320px 50px 100px 50px 50px;
+    justify-content: center;
+    font-family: 'Chilanka' url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap')
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 2;
+}
+
+.big-logo {
+    flex: 50%;
+    grid-row: 3/ span 1;
+}
+
+.head-logo-text {
+    position: relative;
+    left: -5px;
+    top: -55px;
+    font-family: 'Yellowtail', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+.head-logo-sub-text {
+    position: relative;
+    left: 50px;
+    top: -58px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 10px;
+
+}
+
+.head-social {
+    float: right;
+    position: relative;
+    bottom: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hr {
+  grid-column: 1/ span 2;
+  /* background-image: url('./assets/hr-img.png'); */
+  background-repeat: repeat;
+  width: 100%;
+  height: 10px;
+}
+
+.chocolate-print-row {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  align-items: baseline;
+  grid-row: 3/ span 1;
+  
+}
+
+.choco-text-sub-text {
+  flex: 50%;
+}
+
+.chocolate-pizza-text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.post-date {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 10px;
+  color: rgb(184, 180, 180);
+}
+
+.print {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 13px;
+  color: rgb(184, 180, 180);
+  position: relative;  
+  left: 840px;
+  top: -40px;
+}
+.printimg {
+  position: relative;  
+  left: 825px;
+  top: -25px;
+
+}
+
+.chocolate-pizza-img {
+  grid-column: 1/ span 2;
+  height: auto;
+  width: 700px;
+  margin-top: 10px;
+  grid-row: 4/ span 1;
+}
+
+.instructions {
+  grid-row: 5/ span 1;
+  grid-column: 1/ span 2;
+  font-family: 'Times', Times, serif;
+  margin-bottom: 10px;
+  color: rgb(136, 136, 136);
+}
+
+p {
+  text-indent: 30px;
+  margin: 15px 0px;
+}
+
+
+
+.recipe-left {
+  position: relative;
+  left: 100px; 
+  font-family: 'Just Another Hand', cursive url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+
+}
+
+.recipe-right {
+  position: relative;
+  left: 500px; 
+  bottom: 240px;
+  font-family: 'Just Another Hand', cursive url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+}
+
+.recipe {
+  position: relative;
+  bottom: 485px;
+  z-index: -1;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.bio-button {
+  position: relative;
+  bottom: 375px;
+}
+
+.van-name {
+  position: relative;
+  left: 80px;
+  bottom: 470px;
+  font-size: 15px;
+  color: rgb(75, 75, 75);
+  margin-left: 5px;
+}
+
+.van-bio {
+  position: relative;
+  left: 80px;
+  bottom: 490px;
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+  margin-left: 5px;
+  width: 375px;
+}
+
+.share-button {
+  position: relative;
+  left: 600px;
+  bottom: 550px;
+  background-color: hsla(12, 78%, 37%, 0.657);
+  font-family: 'Saira Condensed', sans-serif;
+  border: none;
+  color: white;
+  margin-left: 90px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.silverware-hr {
+  grid-row: 9/ span 1;
+  grid-column: 1/ span 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 45px;
+  
+}
+
+.hr2 {
+  grid-column: 1/ span 2;
+  position: relative;
+  bottom: 400px;
+  /* background-image: url('./assets/hr-img.png'); */
+  background-repeat: repeat;
+  width: 100%;
+  height: 10px;
+}
+
+.copyright {
+  position: relative;
+  left: 330px;
+  bottom: 500px;
+}
+
+.small-logo {
+  position: relative;
+  left:430px;
+  bottom: 500px;
+}
+footer {
+  grid-row: 10/ span 1;
+  grid-column: 1/ span 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+  color: lightgrey;
+}
